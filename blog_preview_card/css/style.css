@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    box-sizing:border-box;
+    background:#f4d04e;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100%;
+}
+
+.blog-post {
+    width:335px;
+    border:1px solid black;
+    padding:20px;
+    background-color:white;
+    border-radius:15px;
+}
+
+.blog-post img {
+    border-radius:15px;
+}
+
+.blog-post .blog-titles {
+    display:inline-block;
+    padding:5px 10px;
+    margin-top:10px;
+    border-radius:3px;
+    background-color:#f4d04e;
+    font-weight:bold;
+}
+
+.blog-post .pub {
+    font-size:14px;
+    margin-top:10px;
+}
+
+.blog-post .blog-post-title {
+    font-weight:bold;
+    font-size:17px;
+    margin-top:10px;
+}
+
+.blog-post .blog-post-article {
+    margin-top:10px;
+    color:gray;
+    
+}
+
+.blog-post .author {
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.blog-post .author .author_name {
+    display:inline-block;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.blog-post .author img {
+    
+    height:30px;
+    width:30px;
+}
