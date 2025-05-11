@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#141414;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100%;
+}
+
+.wrapper {
+    background-color:#1f1f1f;
+    width:320px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.wrapper img {
+    border-radius:50%;
+    width:30%;
+    margin:20px;
+}
+
+.wrapper .name {
+    color:white;
+    font-size:20px;
+    font-weight:400;
+}
+
+.wrapper .location {
+    font-size:12px;
+    color:#c5f82a;
+    margin-top:5px;
+}
+
+.wrapper .desciption {
+    color:#d3d3d3;
+    font-size:13px;
+    margin:20px 0px 10px 0px;
+}
+
+.wrapper .buttons {
+    width:80%;
+    margin-bottom:30px;
+}
+
+.wrapper .buttons button {
+    width:100%;
+    margin-top:12px;
+    padding:10px;
+    background-color:#333333;
+    border-radius:5px;
+    border:none;
+    color:white;
+    font-size:12px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.wrapper .buttons button:hover {
+    background:#c5f82a;
+    color:#1f1f1f;
+}
