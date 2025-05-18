@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font:"Outfit", sans-serif;
+}
+
+body {
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+
+.rec1 {
+    position:absolute;
+    right:0px;
+    top:-200px;
+    z-index:1;
+}
+
+.rec2 {
+    position:absolute;
+    left:50px;
+    top:90px;
+    z-index:2;
+}
+
+.receipe {
+    background-color:#f3e6d8;
+    padding:50px 200px;
+    display:inline-block;
+}
+
+.receipe .receipe-wrapper {
+    width:450px;
+    padding:20px;
+    background-color:white;
+}
+
+.receipe .receipe-wrapper img {
+    width:100%;
+    object-fit:contain;
+}
+
+.receipe .receipe-wrapper .intro {
+    margin-top:15px;
+}
+
+.receipe .receipe-wrapper .intro h1 {
+    font-size:25px;
+}
+
+.receipe .receipe-wrapper .intro p {
+    font-size:14px;
+    margin-top:10px;
+}
+
+.receipe .receipe-wrapper .preg-time {
+    margin-top:15px;
+    background:#fff5fa;
+    padding:15px;
+}
+
+.receipe .receipe-wrapper .preg-time h3 {
+    font-size:15px;
+    color:#7b284f;
+    
+}
+
+.receipe .receipe-wrapper .preg-time ul {
+    list-style-position:inside;
+
+}
+
+.receipe .receipe-wrapper .preg-time ul li {
+    font-size:14px;
+    margin-top:10px;
+}
+
+.receipe .receipe-wrapper .ingredients {
+    margin-top:15px;
+
+}
+
+.receipe .receipe-wrapper .ingredients hr {
+    color:#f8f8f8;
+}
+
+.receipe .receipe-wrapper .ingredients h2 {
+    font-size:20px;
+    color:#854632;
+
+}
+
+.receipe .receipe-wrapper .ingredients ul {
+    margin-top:10px;
+    margin-bottom:15px;
+    list-style-position:inside;
+
+}
+
+.receipe .receipe-wrapper .ingredients ul li {
+    margin-top:5px;
+    font-size:14px;
+}
+
+.receipe .receipe-wrapper .instructions {
+    margin-top:15px;
+}
+
+.receipe .receipe-wrapper .instructions hr {
+    color:#f8f8f8;
+}
+
+.receipe .receipe-wrapper .instructions h2 {
+    font-size:20px;
+    color:#854632;   
+}
+
+.receipe .receipe-wrapper .instructions ol {
+    margin-top:10px;
+    margin-bottom:15px;
+    list-style-position:inside;
+}
+
+.receipe .receipe-wrapper .instructions ol li {
+    margin-top:7px;
+    font-size:14px;
+}
+
+.receipe .receipe-wrapper .nutrition {
+    margin-top:15px;
+
+}
+
+.receipe .receipe-wrapper .nutrition h2 {
+    font-size:20px;
+    color:#854632;     
+}
+
+.receipe .receipe-wrapper .nutrition p {
+    font-size:14px;
+    margin-top:15px;
+}
+
+.receipe .receipe-wrapper .nutrition table {
+    margin-top:15px;
+    margin-bottom:20px;
+    border-collapse:collapse;
+    width:100%;
+}
+
+.receipe .receipe-wrapper .nutrition td {
+    border-bottom:1px solid #b7b5b5;
+    padding:10px 15px;
+    font-size:14px;
+}
+
+.receipe .receipe-wrapper .nutrition td.nutrition-numbers {
+    font-weight:bold;
+    color:#854632;
+}
