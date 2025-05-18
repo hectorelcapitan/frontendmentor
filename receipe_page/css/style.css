@@ -8,35 +8,31 @@
 }
 
 body {
-    position:relative;
+
     height:100vh;
     width:100%;
-}
-
-.rec1 {
-    position:absolute;
-    right:0px;
-    top:-200px;
-    z-index:1;
+    margin:0px;
+    padding:0px;
 }
 
 .rec2 {
-    position:absolute;
-    left:50px;
-    top:90px;
-    z-index:2;
+    margin:0 auto;
 }
 
 .receipe {
+    width:100%;
     background-color:#f3e6d8;
-    padding:50px 200px;
-    display:inline-block;
+    padding:50px;
+    
+
 }
 
 .receipe .receipe-wrapper {
     width:450px;
     padding:20px;
     background-color:white;
+    margin:0 auto;
+    border-radius:10px;
 }
 
 .receipe .receipe-wrapper img {
