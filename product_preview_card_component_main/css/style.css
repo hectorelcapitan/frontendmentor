@@ -106,9 +106,9 @@ body {
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
     .card {
-        width:350px;
+        width:90%;
         height:auto;
     }
 
@@ -118,5 +118,7 @@ body {
         border-radius:10px 10px 0 0;
     }
 
- 
+    .card .description {
+    width:auto;
+ }
 }
