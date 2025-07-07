@@ -1,0 +1,97 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+
+}
+
+.title {
+    width:400px;
+    margin:0 auto;
+}
+
+.title .title1 {
+    text-align:center;
+    font-size:30px;
+    color:#697077;
+    display:block;
+}
+
+.title .title2 {
+    text-align:center;
+    font-size:30px;
+    color:black;
+    font-weight:400;
+    display:block;
+}
+
+.title .title-description {
+    font-size:14px;
+    color:#697077;
+    text-align: center;
+    display:block;
+   
+}
+
+.card-wrapper {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:50px 0px 50px 0px;
+}
+
+.card {
+    width:300px;
+    height:170px;
+    margin:10px;
+    padding:0px 20px 20px 20px;;
+    border-radius:7px;
+    overflow:hidden;
+    box-shadow:0px 0px 5px #697077;
+}
+
+.card .card-title {
+    font-weight:600;
+    font-size:18px;
+    display:block;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.card .card-description {
+    color:#697077;
+}
+
+.card img {
+    float:right;
+    margin:40px 20px 0 0;
+    width:45px;
+}
+
+.card .color-bar {
+    height:2px;
+    position:relative;
+    top:0px;
+    left:-20px;
+    width:inherit;
+}
+
+.card1 .color-bar {
+    background-color:#45d3d3;
+}
+
+.card2 .color-bar {
+    background-color:#ea5353;
+}
+
+.card3 .color-bar {
+    background-color:#fcaf4a;
+}
+
+.card4 .color-bar {
+    background-color:#549ef2;
+}
+

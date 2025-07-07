@@ -1,0 +1,58 @@
+Building flexible layouts
+
+A crucial part of building robust, responsive layouts is letting the browser do all the heavy lifting. In the early days of the responsive web, CSS didn’t have the features to allow content to adapt to different screen sizes easily. Luckily, CSS has caught up with modern technology, and we can leverage it to create fluid layouts that work, regardless of the visitor’s device.
+
+Andy Bell's brilliant talk “Be the browser’s mentor, not its micromanager" is a perfect starting point for creating a mental model for building responsive layouts. It’s well worth watching, as it will help you immeasurably in your career as a web developer.
+
+Andy also co-created Every Layout with Heydon Pickering, another recommended resource with useful patterns for harnessing the built-in algorithms that power browsers and CSS.
+
+Two key CSS features enable most of how we build modern responsive layouts: Flexbox and CSS Grid. Let’s take a quick look at both.
+Introduction to Flexbox
+
+Flexbox, formerly known as the Flexible Box Layout, is a powerful CSS tool designed to improve how you arrange, align, and distribute space among items in a container, even when their size is unknown or dynamic.
+
+Flexbox enables you to:
+
+    Efficiently arrange elements: Whether in a row or column, Flexbox lets you control the direction in which items are laid out based on the screen size or the content itself.
+    Easily align items: With properties for aligning items horizontally and vertically, Flexbox solves common alignment challenges, such as centering an element within a container with minimal code.
+    Control item spacing and order: Flexbox allows you to adjust the spacing between items using the justify-content and align-items properties and even change their visual order without altering the HTML structure.
+    Build responsive layouts: Thanks to its flexibility, Flexbox is a go-to solution for responsive design, allowing layouts to adapt seamlessly to different screen sizes.
+
+To start with Flexbox, you must define a Flex container using display: flex on a parent element, which turns its children into Flex items. From there, you can use various Flexbox properties to manipulate these items' layout, alignment, and order.
+
+Flexbox simplifies complex, cumbersome layout patterns with older CSS properties, making it an essential tool for modern web design and development.
+Useful resources
+
+Here are some excellent resources for learning more about Flexbox if you haven’t had much experience with it yet:
+
+    What the Flexbox?! - Wes Bos has created a brilliant free course to teach Flexbox box fundamentals.
+    An Interactive Guide to Flexbox - Josh Comeau's fantastic interactive article helps you understand Flexbox.
+    MDN: Basic concepts of Flexbox - This is another handy resource for getting you comfortable with Flexbox's basic concepts and features.
+    Flexbox Froggy - When you think you know your stuff, Flexbox Froggy is a fun game that tests your knowledge.
+    Flexbox Zombies - Another one for the gamers among you! This fun and comprehensive game will help you hone your Flexbox skills.
+
+Introduction to CSS Grid
+
+CSS Grid Layout, commonly called CSS Grid, is a layout system in CSS that enables you to create complex web layouts easily. It's like having a grid-based framework directly in your CSS, where you can place elements into rows and columns without relying on external libraries or complicated coding techniques.
+
+Here's what makes CSS Grid so powerful:
+
+    Two-dimensional layouts: Unlike Flexbox, which is primarily for one-dimensional layouts (either in rows or columns), CSS Grid lets you work in both dimensions simultaneously. This means you can precisely control the layout of items both horizontally and vertically.
+    Fine-grained control over areas: With CSS Grid, you can define grid areas and assign elements to these areas, making it incredibly efficient for designing complex page layouts.
+    Responsive design made simple: CSS Grid's intrinsic design makes creating responsive layouts straightforward. You can adjust the grid structure based on screen size, all within your CSS.
+    Alignment, justification, and spacing: Like Flexbox, CSS Grid provides properties for aligning, justifying, and spacing items within the grid, but with even more control due to its two-dimensional nature.
+
+To start using CSS Grid, you first designate a container element as a grid with display: grid;, then set up columns and rows using grid-template-columns and grid-template-rows. From there, you can place items into the grid and manipulate their size and position with various grid-specific properties.
+
+CSS Grid simplifies creating web layouts that previously required hacky solutions or extensive frameworks, enabling you to achieve sophisticated designs directly with CSS.
+Useful resources
+
+As with the Flexbox resources above, there are some excellent free CSS Grid learning resources out there:
+
+    CSS Grid - This free course by Wes Bos, in partnership with Mozilla Firefox, teaches you all about CSS Grid.
+    An Interactive Guide to CSS Grid - Another brilliant interactive article by Josh Comeau to help give you a good mental model when working with CSS Grid.
+    MDN: Basic concepts of grid layout - This MDN run-through provides an excellent overview of CSS Grid and gets you up and running with the fundamentals.
+    Grid by Example - Rachel Andrew has created an extremely comprehensive CSS Grid resource. It includes examples, patterns, and tutorials and is a great resource to bookmark and refer to repeatedly.
+    Grid Garden - Similar to Flexbox Froggy, this game is fun to test your CSS Grid knowledge before diving into realistic projects.
+
+Now that you’ve got the tools to build responsive layouts using modern techniques, let’s dive into a challenge!
