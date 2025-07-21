@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card1 {
+  grid-column: 1 / span 2;
+  background-color: #7541c8;
+  color: #cfcfcf;
+}
+
+.card2 {
+  background-color: #48556a;
+  color: #cfcfcf;
+}
+
+.card3 {
+  background-color: white;
+  color: #676d7e;
+}
+
+.card4 {
+  grid-column: 1 / span 2;
+  background-color: #19212e;
+  color: #cfcfcf;
+}
+
+.card5 {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  background-color: white;
+  color: #676d7e;
+}
+
+.card1 .testimonial1,
+.card2 .testimonial1 {
+  color: #ffffff;
+}
+
+.card3 .testimonial1,
+.card5 .testimonial1 {
+  color: #48556a;
+}
+
+.card4 .testimonial1 {
+  color: #cfcfcf;
+}
+
+.card .title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.card .title-wrap .name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card .title-wrap .status {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card .title-wrap .img-wrap {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.card .title-wrap .img-wrap img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card .title-wrap .name-wrap {
+  float: left;
+  margin-left: 20px;
+}
+
+.card1 .title-wrap .img-wrap1 {
+  border: 2px solid #c4a2f6;
+}
+
+.card2 .title-wrap .img-wrap2 {
+  border: 2px solid #676d7e;
+}
+
+.card3 .title-wrap .img-wrap3 {
+  border: 2px solid #e7eaee;
+}
+
+.card4 .title-wrap .img-wrap4 {
+  border: 2px solid #19212e;
+}
+
+.card5 .title-wrap .img-wrap5 {
+  border: 2px solid #e7eaee;
+}
+
+.card .testimonial1 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.card .testimonial2 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .card-wrapper {
+    display: table;
+  }
+
+  .card-wrapper .card {
+    margin-top: 20px;
+  }
+}
