@@ -24,8 +24,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  position: relative;
+  height: auto;
+  flex-direction: row;
+  gap: 40px;
+  padding: 64x 0;
   overflow: hidden;
   margin-bottom: 200px;
 }
@@ -40,11 +42,16 @@
   display: none;
 }
 
+.title-wrap .desktop-hero-img {
+  flex: 1;
+  max-width: 394px;
+  min-width: 0;
+  height: 303px;
+  object-fit: cover;
+}
+
 .title-wrap .img-left {
-  width: 400px;
-  position: absolute;
-  left: -40px;
-  top: 0px;
+  object-position: right;
 }
 
 .title-wrap .img-left img {
@@ -52,10 +59,7 @@
 }
 
 .title-wrap .img-right {
-  width: 400px;
-  position: absolute;
-  top: 0px;
-  right: -40px;
+  object-position: left;
 }
 
 .title-wrap .img-right img {
@@ -89,6 +93,10 @@
   cursor: pointer;
 }
 
+.button1:hover {
+  background-color: #a4c1f0;
+}
+
 .version {
   color: #b0ccf8;
   font-weight: 600;
@@ -105,6 +113,10 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #b891f6;
 }
 
 .slide-wrap .number {
